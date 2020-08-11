@@ -1,0 +1,44 @@
+/* Youtube header */
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: aqua;
+}
+
+/* Grid Container to organize rest of the page */
+.container {
+    display: grid;
+    grid-template-columns:  664px 426px;
+    grid-template-rows: 2fr 2183px;
+    margin: 50px;
+    margin-top: 24px;
+    justify-items: stretch;
+    justify-content: center;
+    column-gap: 24px;
+    background-color: brown; /* Must to be removed*/
+} 
+
+/* Where is placed the incopored video from YT */
+.videoBox {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    
+    background-color: red; /* Must to be removed*/
+}
+
+/* Area for the description of the video , chanel information and comments  */
+.underVideo {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    
+    background-color: purple; /* Must to be removed*/
+}
+
+/* Next Videos' options  */
+.upNext {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    
+    background-color: seagreen; /* Must to be removed*/
+}
