@@ -1,18 +1,60 @@
 <!DOCTYPE html>
 <html>
-    <link href="reset.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="styles.css" rel="stylesheet" type="text/css" media="all"/>
     <head>
         <title>Youtube clone</title>
+        <link href="reset.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="styles.css" rel="stylesheet" type="text/css" media="all"/>
     </head>
     <body>
         <header class="header">
-            Youtube header
+
+         <div class="extra">
+            <button class="menuBtn"> 
+                <img class="menu" src="https://w7.pngwing.com/pngs/155/992/png-transparent-computer-icons-cloudsight-bar-youtube-taco%EF%BC%8Cmenu-design-angle-text-rectangle.png" alt="Menu">
+            </button>
+            <button class="logoBtn">
+                <img class="logo" src="https://www.pikpng.com/pngl/m/160-1602977_great-fox-news-youtube-live-clipart-with-a.png" alt="Youtube Logo">
+            </button>
+         </div>
+
+         <div class="extra">
+            <div class="searchBox">
+                <input class="search" type="search" placeholder="Search"> 
+                <button class="keybordBtn">
+                    <img class="keybord" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxhPpvbDlpbsRECFq42q7CAo0eixa1KkUUlA&usqp=CAU" alt="Virtual Keybord">
+                </button>
+            </div>
+            <div class="searchBtnBox">
+                <button class="searchBtn">
+                    <img class="lupa" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS3L2YkydPYUg9VqTYe_x7y-g1NaCsDX75W2A&usqp=CAU" alt="Magnify">
+                </button>
+            </div>
+         </div>
+
+            <div class="buttonsBox">
+                <button class="buttons">
+                    <img class="icons" src="https://www.pikpng.com/pngl/m/296-2960788_file-linecons-wikimedia-commons-open-video-icon-white.png" alt="Record">
+                </button>
+                <button class="buttons">
+                    <img class="icons" src="https://cdn4.iconfinder.com/data/icons/banking-finance/32/more-512.png" alt="Options">
+                </button>
+                <button class="buttons">
+                    <img class="icons" src="https://www.pikpng.com/pngl/m/0-972_youtube-bell-icon-png-transparent-image-transparent-youtube.png" alt="Notifications">
+                </button>
+                <a href="#" class="buttons">
+                    <img class="avatar" src="https://lh3.googleusercontent.com/ogw/ADGmqu9ofTfodbX3KGhyJiUl6tUoT6YeuULz8sYpW6B6=s32-c-mo" alt="avatar-img"> 
+                  </a>
+            </div>
+           
 
         </header>
         <div class="container">
             <div class="videoBox">
-                Video part
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/cXIP7nffTfE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <p class="videoTitle">
+                    Social Club Misfits - "Solo" + "Say Goodbye" (EXTENDED MIX)
+                </p>
                 
             </div>
             <div class="underVideo">
@@ -24,8 +66,5 @@
         
 
         </div>
-
     </body>
-
-
 </html>

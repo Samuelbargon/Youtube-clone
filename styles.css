@@ -2,9 +2,140 @@
 .header {
     position: sticky;
     top: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
     width: 100%;
-    background-color: aqua;
+    height: 56px;
+    max-height: 56px;
+    background-color: white;
 }
+
+.extra {
+    display: inline-block;
+} /* This extra class was created to correct a fail in the code to be able to use scape-between in the Header class without destroying the code*/
+
+.menuBtn {
+    height: 28px;
+    border: 0;
+    padding: 0;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.menu {
+    width: 24px;
+    height: 24px;
+}
+
+.logoBtn {
+    border: 0;
+    padding: 0;
+    margin-right: 24px;
+}
+
+
+.logo {
+    width: 80px;
+    height: 24px;
+}
+
+.searchBox {
+    display: inline-block;
+    width: 575px;
+    height: 26px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    padding: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.search {
+    position: relative;
+    top: 1px;
+    width: 531px;
+    height: 24px;
+    border: 0; 
+    font-size: 16px;
+    font-family: Roboto, Noto, sans-serif;
+    font-weight: 400;
+}
+
+.keybordBtn {
+    position: relative;
+    top: 1px;
+    left: 13px;
+    width: 20px; 
+    height: 13px; 
+    padding: 0;
+    border: 0; 
+}
+
+.keybord {
+    width: 19px;
+    height: 11px;
+}
+
+.searchBtnBox {
+    display: inline-block;
+    width: 65px;
+    height: 30px;
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+
+
+.searchBtn {
+    display: inline-block;
+    width: 65px;
+    height: 30px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    padding: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: white;
+    
+    
+}
+
+.lupa {
+    width: 14px;
+    height: 14px;
+}
+
+/* For the last four buttons */
+.buttonsBox {
+    display: inline-block;
+    margin-right: 25px; 
+}
+
+.buttons {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 0px;
+    margin-left: 14px;
+    background-color: white;
+}
+
+.icons {
+    width: 23px;
+    
+}
+
+.avatar {
+    position: relative;
+    top: 5px;
+    border-radius: 50%;
+    
+}
+
 
 /* Grid Container to organize rest of the page */
 .container {
@@ -19,7 +150,7 @@
     background-color: brown; /* Must to be removed*/
 } 
 
-/* Where is placed the incopored video from YT */
+/* Where is placed the incopored video from YT and the description of the video*/
 .videoBox {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
@@ -27,7 +158,13 @@
     background-color: red; /* Must to be removed*/
 }
 
-/* Area for the description of the video , chanel information and comments  */
+.videoTitle {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Area for chanel information and comments  */
 .underVideo {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
