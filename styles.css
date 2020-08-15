@@ -154,20 +154,147 @@
 .videoBox {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    
-    background-color: red; /* Must to be removed*/
+    justify-self: end;
+    background-color: white; /* Must to be removed*/
+}
+
+.underVideoBox {
+    padding-top: 19px;
 }
 
 .videoTitle {
     font-family: Roboto, Arial, sans-serif;
     font-size: 18px;
     font-weight: 400;
+    line-height: 24px;
+    color: rgb(3, 3, 3);
+}
+
+.videoInteraction {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 640px;
+    padding-top: 3px;
+    
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(214, 214, 214);
+    
+
+
+}
+
+.views {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgb(96, 96, 96);
+}
+
+.extraBtn {
+    display: inline-flex;
+    justify-content: space-between;
+    
+}
+
+.alignLikeBtn {
+    padding-right: 15px;
+    padding-bottom: 7px;
+    border-bottom: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(96, 96, 96);;
+}
+
+.like {
+    width: 36px;
+    height: 36px;
+    border: none;
+    background-color: white;
+    
+}
+
+.likeButton {
+    width: 20px;
+    height: 20px;
+    
+    
+}
+
+.likeNumbers {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 35px;
+    color: rgb(96, 96, 96);
+
+}
+
+.shareButton {
+    display: inline-flex;
+    justify-content: space-around;
+    line-height: 35px;
+    width: 91px;
+    height: 36px;
+    border: none;
+    padding: 0;
+    background-color: white;
+    padding-right: 15px;
+}
+
+.shareImg {
+    width: 15px;
+    height: 15px;
+    padding-top: 10px;
+}
+
+.word {
+    width: auto;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(96, 96, 96);
+}
+
+.saveButton {
+    display: inline-flex;
+    justify-content: space-around;
+    line-height: 35px;
+    width: 91px;
+    height: 36px;
+    border: none;
+    padding: 0;
+    padding-right: 15px;
+    background-color: white;
+}
+
+.saveImg {
+    width: 17px;
+    padding-top: 10px;
+}
+
+.extraButton {
+    display: inline-flex;
+    justify-content: center;
+    width: 31px;
+    height: 36px;
+    border: none;
+    padding: 0;
+    background-color: white;
+    padding-right: 10px;
+}
+
+.extraIconImg {
+    width: 24px;
+    padding-top: 5px;
 }
 
 /* Area for chanel information and comments  */
 .underVideo {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+    justify-self: end;
+    width: 640px;
     
     background-color: purple; /* Must to be removed*/
 }
