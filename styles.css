@@ -2,6 +2,7 @@
 .header {
     position: sticky;
     top: 0;
+    z-index: 1; /*Properity to not allow elements with positions to overright this one*/
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
@@ -295,8 +296,88 @@
     grid-row: 2 / 3;
     justify-self: end;
     width: 640px;
+    padding-top: 16px;  /*For now here maybe we put in other div*/
+    background-color: white
+}
+
+.channelContainer {
+    padding-bottom: 10px;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(214, 214, 214);
+}
+
+.channelPart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.channelImg {
+    width: 48px;
+    border-radius: 50%;
+}
+
+.channelInf {
+    display: inline-block;
     
-    background-color: purple; /* Must to be removed*/
+}
+
+.channelName {
+    position: relative;
+    bottom: 9px;
+    padding-left: 10px;
+    color: rgb(3, 3, 3);
+    font-family: Roboto, Arial, sans-serif;;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-decoration-color: rgb(3, 3, 3);
+    text-decoration-style: solid;
+}
+
+.subscribers { 
+    position: relative;
+    bottom: 9px;
+    padding-left: 10px;
+    color: rgb(96, 96, 96);
+    font-family: Roboto, Arial, sans-serif;;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.subscribeBtn {
+    color: rgb(243, 243, 243);
+    cursor: pointer;
+    min-width: 72px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    border-color: transparent;
+    box-sizing: border-box;
+    font-family: Roboto, Noto, sans-serif;;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgb(204, 0, 0);
+}
+
+.subscribe {
+    display: inline-block;
+    padding-right: 10px;
+
+}
+
+.videoDescription {
+    position: relative;
+    left: 60px;
+    color: rgb(3, 3, 3);
+    padding-top: 12px;
+    font-family: Roboto, Arial, sans-serif;;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
 }
 
 /* Next Videos' options  */
