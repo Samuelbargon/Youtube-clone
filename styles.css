@@ -148,7 +148,7 @@
     justify-items: stretch;
     justify-content: center;
     column-gap: 24px;
-    background-color: brown; /* Must to be removed*/
+    background-color: white; /* Must to be removed*/
 } 
 
 /* Where is placed the incopored video from YT and the description of the video*/
@@ -375,6 +375,75 @@
     color: rgb(3, 3, 3);
     padding-top: 12px;
     font-family: Roboto, Arial, sans-serif;;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+/*Comments of the video*/
+.respond {
+    width: 100%;
+    height: 87px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+}
+
+.respondHeader {
+    display: flex;
+    justify-content: start;
+    color: rgb(3, 3, 3);
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+
+
+}
+
+.classifyBtn {
+    display: flex;
+    justify-content: center;
+    width: 148.797px;
+    height: 24px;
+    margin-left: 24px;
+    color: rgb(96, 96, 96);
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border-color: transparent;
+}
+
+.classifyImg {
+    width: 24px;
+    margin-right: 2%;
+}
+
+.respondBody {
+    display: flex;
+    align-content: center;
+    margin-top: 24px;
+
+}
+
+.avatarComment {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: auto;
+}
+
+.comment {
+    width: 584px;
+    height: 21px;
+    border-color: transparent;
+    border-bottom-color: rgb(214, 214, 214);
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    color: rgb(96, 96, 96);
+    font-family: Roboto, Arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
