@@ -550,5 +550,77 @@
     grid-column: 2 / 3;
     grid-row: 1 / 3;
     
-    background-color: seagreen; /* Must to be removed*/
+    background-color: white; /* Must to be removed*/
+}
+
+.upNextoptions {
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+.nextTxt {
+    width: 179px;
+    margin-right: 100px;
+    color: rgb(3, 3, 3);
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 30px;
+}
+
+.autoplayTxt {
+    color: rgb(96, 96, 96);
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.autoplayImg {
+    width: 35px;
+    margin-left: 15px;
+}
+
+/*Video options*/
+#firstVideoOpt {
+    padding-bottom: 10px;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(214, 214, 214);
+}
+
+.upNextVideoCont {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 12px;
+
+}
+
+.nextVideoImg {
+    width: 168px;
+    height: 94px;
+}
+
+.nextVideoTitle {
+    width: 202px;
+    height: 32px;
+    margin-left: 8px;
+    color: rgb(3, 3, 3);
+    cursor: pointer;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nextVideoDescription {
+    margin-left: 8px;
+    color: rgb(96, 96, 96);
+    cursor: pointer;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 18px;
 }
